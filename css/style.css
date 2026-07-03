@@ -183,6 +183,9 @@ p  { color: var(--mid); }
 .producto-card__price small { font-size: .85rem; font-weight: 400; color: var(--mid); }
 .producto-card--premium { border-color: var(--brand); border-width: 2px; }
 .producto-card--gift { border-style: dashed; }
+.producto-card__price--soon { font-family: var(--ff-serif); font-size: 1.2rem; color: var(--mid); font-style: italic; }
+.btn--coming { background: var(--cream-d); color: var(--mid); border: 1.5px dashed var(--border); width: 100%; margin-top: .75rem; border-radius: 8px; cursor: default; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+.btn--coming:hover { background: var(--cream-d); color: var(--mid); transform: none; box-shadow: none; }
 
 /* ── Beneficios ────────────────────────────────────────────── */
 .beneficios {
