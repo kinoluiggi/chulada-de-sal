@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chulada de Sal · Sal de Mar Artesanal de Colima</title>
+  <meta name="description" content="Sal marina artesanal de las costas de Cuyutlán, Colima. Baja en sodio, sin aditivos, 80+ minerales del mar. Hecha en México." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+          <polygon points="20,4 38,36 2,36" fill="none" stroke="#C17F3B" stroke-width="2.5"/>
+          <line x1="20" y1="4" x2="20" y2="36" stroke="#C17F3B" stroke-width="1" stroke-dasharray="2,3"/>
+        </svg>
+        <span>Chulada <em>de Sal</em></span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#productos" class="nav__cta">Comprar</a></li>
+      </ul>
+      <button class="nav__burger" id="burger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__waves">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C180,80 360,0 540,40 C720,80 900,0 1080,40 C1260,80 1440,0 1440,40 L1440,80 L0,80 Z" fill="#C17F3B" opacity="0.15"/></svg>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Sal de Mar de Colima · Hecha en México</p>
+      <h1 class="hero__title">Una <em>chulada</em><br/>para tu paladar</h1>
+      <p class="hero__sub">Sal marina artesanal cosechada a mano en las salinas de Cuyutlán, Colima. Sin aditivos, baja en sodio, con más de 80 minerales del mar.</p>
+      <div class="hero__actions">
+        <a href="#productos" class="btn btn--primary">Ver productos</a>
+        <a href="#historia" class="btn btn--ghost">Nuestra historia</a>
+      </div>
+      <div class="hero__badges">
+        <span>🌊 Sal de mar natural</span>
+        <span>💚 18% menos sodio</span>
+        <span>🏺 Sin aditivos</span>
+        <span>🇲🇽 Hecha en México</span>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <svg class="jar-svg" viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Tapa -->
+        <rect x="60" y="18" width="80" height="16" rx="4" fill="#C17F3B"/>
+        <rect x="55" y="30" width="90" height="8" rx="2" fill="#A86A28"/>
+        <!-- Frasco -->
+        <rect x="50" y="38" width="100" height="160" rx="12" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1.5"/>
+        <!-- Sal interior -->
+        <rect x="52" y="100" width="96" height="96" rx="0 0 10 10" fill="#EDE8DF"/>
+        <!-- Etiqueta -->
+        <rect x="58" y="55" width="84" height="110" rx="4" fill="#FDFAF5" stroke="#C17F3B" stroke-width="0.8"/>
+        <!-- Olas etiqueta -->
+        <path d="M58,68 C70,63 82,73 94,68 C106,63 118,73 130,68 C136,65 141,67 142,68" stroke="#C17F3B" stroke-width="0.7" fill="none"/>
+        <path d="M58,72 C70,67 82,77 94,72 C106,67 118,77 130,72 C136,69 141,71 142,72" stroke="#C17F3B" stroke-width="0.5" fill="none"/>
+        <!-- Logo triángulo -->
+        <polygon points="100,80 112,100 88,100" fill="none" stroke="#C17F3B" stroke-width="1.2"/>
+        <line x1="100" y1="80" x2="100" y2="100" stroke="#C17F3B" stroke-width="0.6" stroke-dasharray="2,2"/>
+        <!-- Texto etiqueta -->
+        <text x="100" y="115" text-anchor="middle" font-family="serif" font-size="11" font-weight="700" fill="#2C2C2C">Chulada</text>
+        <text x="100" y="127" text-anchor="middle" font-family="serif" font-size="7" fill="#6B6B6B" font-style="italic">de Sal</text>
+        <text x="100" y="141" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="600" fill="#C17F3B">Clásica</text>
+        <text x="100" y="153" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#6B6B6B">ESPECIADO DE LA CASA</text>
+        <!-- Olas inferiores -->
+        <path d="M58,162 C70,157 82,167 94,162 C106,157 118,167 130,162 C136,159 141,161 142,162" stroke="#C17F3B" stroke-width="0.7" fill="none"/>
+        <!-- Cristales -->
+        <rect x="42" y="190" width="4" height="4" rx="1" fill="#D0C0A8" opacity="0.8"/>
+        <rect x="155" y="185" width="5" height="5" rx="1" fill="#D0C0A8" opacity="0.6"/>
+        <rect x="48" y="205" width="3" height="3" rx="0.5" fill="#D0C0A8" opacity="0.5"/>
+        <rect x="150" y="205" width="4" height="4" rx="1" fill="#D0C0A8" opacity="0.7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- BANDA VALORES -->
+  <section class="values">
+    <div class="values__inner">
+      <div class="values__item">
+        <span class="values__icon">🌊</span>
+        <strong>Cuyutlán, Colima</strong>
+        <p>Cosechada a mano en las salinas del Pacífico mexicano</p>
+      </div>
+      <div class="values__item">
+        <span class="values__icon">💚</span>
+        <strong>18% menos sodio</strong>
+        <p>Naturalmente baja en sodio vs. sal de mesa convencional</p>
+      </div>
+      <div class="values__item">
+        <span class="values__icon">✨</span>
+        <strong>80+ minerales del mar</strong>
+        <p>Calcio, magnesio, hierro y oligoelementos del océano Pacífico</p>
+      </div>
+      <div class="values__item">
+        <span class="values__icon">🏺</span>
+        <strong>Sin aditivos</strong>
+        <p>Cero yodo añadido, cero blanqueadores, cero antiapelmazantes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORIA -->
+  <section class="historia" id="historia">
+    <div class="historia__inner">
+      <div class="historia__text">
+        <p class="section-eyebrow">Nuestra historia</p>
+        <h2>Del mar de Colima<br/><em>a tu mesa</em></h2>
+        <p>En las costas de Cuyutlán, Colima, el sol y el viento del Pacífico hacen un trabajo que ninguna fábrica puede replicar: cristalizan el agua del mar en capas de sal pura, mineral y viva.</p>
+        <p>Chulada de Sal nació de la convicción de que lo mexicano es suficientemente extraordinario para ser gourmet. Que no hace falta sal rosa importada del otro lado del mundo cuando tenemos océano, sol y tradición salinera de siglos aquí mismo.</p>
+        <p>Cada frasco contiene sal cosechada a mano, mezclada artesanalmente en CDMX con especias seleccionadas, y envasada en vidrio — porque la tierra, el mar y tu comida merecen lo mejor.</p>
+        <div class="historia__claims">
+          <div><strong>Marca registrada</strong><span>IMPI Clase 30</span></div>
+          <div><strong>Origen certificado</strong><span>Cuyutlán, Colima</span></div>
+          <div><strong>Sin microplásticos</strong><span>Envase de vidrio</span></div>
+        </div>
+      </div>
+      <div class="historia__deco">
+        <svg viewBox="0 0 300 300" fill="none">
+          <circle cx="150" cy="150" r="120" stroke="#C17F3B" stroke-width="1" stroke-dasharray="4,8" opacity="0.3"/>
+          <circle cx="150" cy="150" r="90" stroke="#C17F3B" stroke-width="0.5" opacity="0.2"/>
+          <polygon points="150,60 230,210 70,210" fill="none" stroke="#C17F3B" stroke-width="1.5"/>
+          <line x1="150" y1="60" x2="150" y2="210" stroke="#C17F3B" stroke-width="0.8" stroke-dasharray="3,5"/>
+          <text x="150" y="250" text-anchor="middle" font-family="serif" font-size="18" fill="#C17F3B" font-style="italic">Cuyutlán · Colima</text>
+          <text x="150" y="270" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6B6B6B" letter-spacing="3">MÉXICO</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="productos" id="productos">
+    <div class="productos__inner">
+      <p class="section-eyebrow">Nuestra línea</p>
+      <h2>Seis sabores,<br/><em>una sola chulada</em></h2>
+      <p class="section-sub">Todas elaboradas con sal de mar de Cuyutlán. Sin yodo ni flúor añadidos. Molienda suave. Baja en sodio.</p>
+
+      <div class="productos__grid">
+
+        <div class="producto-card" data-color="#2C7DA0">
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 120 160" fill="none">
+              <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+              <rect x="30" y="20" width="60" height="6" rx="2" fill="#A86A28"/>
+              <rect x="25" y="26" width="70" height="110" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1"/>
+              <rect x="27" y="80" width="66" height="55" fill="#EDE8DF"/>
+              <rect x="32" y="34" width="56" height="76" rx="3" fill="#FDFAF5" stroke="#2C7DA0" stroke-width="0.8"/>
+              <polygon points="60,42 70,58 50,58" fill="none" stroke="#2C7DA0" stroke-width="1"/>
+              <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" font-weight="700" fill="#2C2C2C">Chulada</text>
+              <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="6" fill="#6B6B6B" font-style="italic">de Sal</text>
+              <text x="60" y="92" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#2C7DA0">Clásica</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Clásica</h3>
+            <p class="producto-card__sub">Especiado de la Casa</p>
+            <p class="producto-card__desc">La original. Receta secreta de especias de la casa que complementa cualquier platillo. Molienda suave, cristal grueso.</p>
+            <div class="producto-card__meta">
+              <span>210 g</span>
+              <span>Frasco de vidrio</span>
+            </div>
+            <div class="producto-card__price">$145 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product">Pedir ahora</a>
+          </div>
+        </div>
+
+        <div class="producto-card" data-color="#2E7D32">
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 120 160" fill="none">
+              <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+              <rect x="30" y="20" width="60" height="6" rx="2" fill="#A86A28"/>
+              <rect x="25" y="26" width="70" height="110" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1"/>
+              <rect x="27" y="80" width="66" height="55" fill="#EDE8DF"/>
+              <rect x="32" y="34" width="56" height="76" rx="3" fill="#FDFAF5" stroke="#2E7D32" stroke-width="0.8"/>
+              <polygon points="60,42 70,58 50,58" fill="none" stroke="#2E7D32" stroke-width="1"/>
+              <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" font-weight="700" fill="#2C2C2C">Chulada</text>
+              <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="6" fill="#6B6B6B" font-style="italic">de Sal</text>
+              <text x="60" y="92" text-anchor="middle" font-family="sans-serif" font-size="7" font-weight="600" fill="#2E7D32">Mediterránea</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Mediterránea</h3>
+            <p class="producto-card__sub">Inspiración Mediterránea</p>
+            <p class="producto-card__desc">Hierbas y especias de inspiración mediterránea. Perfecta para pastas, ensaladas, pescados y aceites de oliva.</p>
+            <div class="producto-card__meta"><span>210 g</span><span>Frasco de vidrio</span></div>
+            <div class="producto-card__price">$145 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product">Pedir ahora</a>
+          </div>
+        </div>
+
+        <div class="producto-card" data-color="#B71C1C">
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 120 160" fill="none">
+              <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+              <rect x="30" y="20" width="60" height="6" rx="2" fill="#A86A28"/>
+              <rect x="25" y="26" width="70" height="110" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1"/>
+              <rect x="27" y="80" width="66" height="55" fill="#EDE8DF"/>
+              <rect x="32" y="34" width="56" height="76" rx="3" fill="#FDFAF5" stroke="#B71C1C" stroke-width="0.8"/>
+              <polygon points="60,42 70,58 50,58" fill="none" stroke="#B71C1C" stroke-width="1"/>
+              <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" font-weight="700" fill="#2C2C2C">Chulada</text>
+              <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="6" fill="#6B6B6B" font-style="italic">de Sal</text>
+              <text x="60" y="92" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#B71C1C">Mexicana</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Mexicana</h3>
+            <p class="producto-card__sub">Espíritu Mexicano</p>
+            <p class="producto-card__desc">Chiles y cítricos que capturan el alma de la cocina mexicana. Para tacos, carnes, mariscos y guacamole.</p>
+            <div class="producto-card__meta"><span>210 g</span><span>Frasco de vidrio</span></div>
+            <div class="producto-card__price">$145 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product">Pedir ahora</a>
+          </div>
+        </div>
+
+        <div class="producto-card" data-color="#4E342E">
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 120 160" fill="none">
+              <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+              <rect x="30" y="20" width="60" height="6" rx="2" fill="#A86A28"/>
+              <rect x="25" y="26" width="70" height="110" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1"/>
+              <rect x="27" y="80" width="66" height="55" fill="#EDE8DF"/>
+              <rect x="32" y="34" width="56" height="76" rx="3" fill="#FDFAF5" stroke="#4E342E" stroke-width="0.8"/>
+              <polygon points="60,42 70,58 50,58" fill="none" stroke="#4E342E" stroke-width="1"/>
+              <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" font-weight="700" fill="#2C2C2C">Chulada</text>
+              <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="6" fill="#6B6B6B" font-style="italic">de Sal</text>
+              <text x="60" y="92" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="600" fill="#4E342E">Ahumada</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Ahumada</h3>
+            <p class="producto-card__sub">Ahumado Natural</p>
+            <p class="producto-card__desc">Proceso de ahumado puro, sin especias añadidas. Para carnes a las brasas, quesos y platillos con personalidad.</p>
+            <div class="producto-card__meta"><span>210 g</span><span>Frasco de vidrio</span></div>
+            <div class="producto-card__price">$140 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product">Pedir ahora</a>
+          </div>
+        </div>
+
+        <div class="producto-card producto-card--premium" data-color="#C17F3B">
+          <div class="producto-card__badge">Premium</div>
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 120 160" fill="none">
+              <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+              <rect x="30" y="20" width="60" height="6" rx="2" fill="#A86A28"/>
+              <rect x="25" y="26" width="70" height="110" rx="8" fill="#F4EFE4" stroke="#C17F3B" stroke-width="1.5"/>
+              <rect x="27" y="80" width="66" height="55" fill="#EDE8DF"/>
+              <rect x="32" y="34" width="56" height="76" rx="3" fill="#FDFAF5" stroke="#C17F3B" stroke-width="1.2"/>
+              <polygon points="60,42 70,58 50,58" fill="none" stroke="#C17F3B" stroke-width="1.5"/>
+              <text x="60" y="70" text-anchor="middle" font-family="serif" font-size="9" font-weight="700" fill="#2C2C2C">Chulada</text>
+              <text x="60" y="80" text-anchor="middle" font-family="serif" font-size="6" fill="#6B6B6B" font-style="italic">de Sal</text>
+              <text x="60" y="90" text-anchor="middle" font-family="sans-serif" font-size="6" font-weight="600" fill="#C17F3B">Flor de Sal</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Flor de Sal</h3>
+            <p class="producto-card__sub">Especiada · Cosechada a Mano</p>
+            <p class="producto-card__desc">La crema del mar. Recogida a mano de la superficie de las salinas en condiciones perfectas. La joya de la línea.</p>
+            <div class="producto-card__meta"><span>120 g</span><span>Frasco artesanal</span></div>
+            <div class="producto-card__price">$280 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product btn--gold">Pedir ahora</a>
+          </div>
+        </div>
+
+        <div class="producto-card producto-card--gift" data-color="#C17F3B">
+          <div class="producto-card__badge producto-card__badge--gift">Regalo</div>
+          <div class="producto-card__jar">
+            <svg viewBox="0 0 160 160" fill="none">
+              <g transform="translate(10,20) scale(0.45)">
+                <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+                <rect x="25" y="20" width="70" height="100" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1.5"/>
+                <rect x="32" y="30" width="56" height="70" rx="3" fill="#FDFAF5" stroke="#2C7DA0" stroke-width="1"/>
+                <text x="60" y="65" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#2C7DA0">Clásica</text>
+              </g>
+              <g transform="translate(60,20) scale(0.45)">
+                <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+                <rect x="25" y="20" width="70" height="100" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1.5"/>
+                <rect x="32" y="30" width="56" height="70" rx="3" fill="#FDFAF5" stroke="#2E7D32" stroke-width="1"/>
+                <text x="60" y="65" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#2E7D32">Mediterránea</text>
+              </g>
+              <g transform="translate(110,20) scale(0.45)">
+                <rect x="35" y="10" width="50" height="10" rx="3" fill="#C17F3B"/>
+                <rect x="25" y="20" width="70" height="100" rx="8" fill="#F4EFE4" stroke="#D0C0A8" stroke-width="1.5"/>
+                <rect x="32" y="30" width="56" height="70" rx="3" fill="#FDFAF5" stroke="#B71C1C" stroke-width="1"/>
+                <text x="60" y="65" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#B71C1C">Mexicana</text>
+              </g>
+              <text x="80" y="148" text-anchor="middle" font-family="serif" font-size="10" fill="#C17F3B">Set de 3</text>
+            </svg>
+          </div>
+          <div class="producto-card__info">
+            <h3>Set de Regalo</h3>
+            <p class="producto-card__sub">Elige tus 3 favoritas</p>
+            <p class="producto-card__desc">La mejor forma de regalar Chulada de Sal. Tres sabores a elegir, presentados en estuche. Perfecto para cualquier ocasión.</p>
+            <div class="producto-card__meta"><span>3 × 100 g</span><span>Estuche premium</span></div>
+            <div class="producto-card__price">$380 <small>MXN</small></div>
+            <a href="#contacto" class="btn btn--product btn--gold">Pedir ahora</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="beneficios" id="beneficios">
+    <div class="beneficios__inner">
+      <p class="section-eyebrow section-eyebrow--light">¿Por qué Chulada de Sal?</p>
+      <h2>Sal que <em>cuida</em> y <em>sabe</em></h2>
+      <div class="beneficios__grid">
+        <div class="beneficio">
+          <div class="beneficio__num">18%</div>
+          <h3>Menos sodio</h3>
+          <p>Naturalmente baja en sodio comparada con la sal de mesa convencional. Sin reducir el sabor.</p>
+        </div>
+        <div class="beneficio">
+          <div class="beneficio__num">80+</div>
+          <h3>Minerales del mar</h3>
+          <p>Calcio, magnesio, hierro, potasio y más de 80 oligoelementos presentes en el agua del Pacífico.</p>
+        </div>
+        <div class="beneficio">
+          <div class="beneficio__num">0</div>
+          <h3>Aditivos añadidos</h3>
+          <p>Sin yodo añadido, sin blanqueadores, sin antiapelmazantes, sin fluoruros. Solo sal y especias.</p>
+        </div>
+        <div class="beneficio">
+          <div class="beneficio__num">♻</div>
+          <h3>Sin microplásticos</h3>
+          <p>Envasada en vidrio. Porque tu comida y la tierra merecen un empaque que no contamina.</p>
+        </div>
+      </div>
+      <div class="beneficios__vs">
+        <h3>Chulada de Sal vs. sal convencional</h3>
+        <table>
+          <thead><tr><th>Característica</th><th>Chulada de Sal</th><th>Sal de mesa común</th></tr></thead>
+          <tbody>
+            <tr><td>Contenido de sodio</td><td class="yes">~400 mg / ¼ cdta</td><td class="no">~480 mg / ¼ cdta</td></tr>
+            <tr><td>Minerales del mar</td><td class="yes">80+ oligoelementos</td><td class="no">Solo NaCl</td></tr>
+            <tr><td>Aditivos</td><td class="yes">Ninguno</td><td class="no">Yodo, blanqueadores, antiapelmazantes</td></tr>
+            <tr><td>Proceso</td><td class="yes">Cosechada a mano</td><td class="no">Refinada industrialmente</td></tr>
+            <tr><td>Origen</td><td class="yes">Cuyutlán, Colima · México</td><td class="no">Sin trazabilidad</td></tr>
+            <tr><td>Empaque</td><td class="yes">Vidrio sin microplásticos</td><td class="no">Plástico o cartón</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLIMA -->
+  <section class="colima">
+    <div class="colima__inner">
+      <div class="colima__text">
+        <p class="section-eyebrow">El origen importa</p>
+        <h2>Cuyutlán, Colima</h2>
+        <p>Las salinas de Cuyutlán son uno de los ecosistemas salineros más antiguos del Pacífico mexicano. El agua del océano, guiada por canales artesanales, reposa bajo el sol de Colima hasta que el viento y el calor concentran sus minerales en cristales perfectos.</p>
+        <p>Es un proceso que no se puede apresurar. La sal que llega a tu mesa cargó sol, viento y mar por semanas antes de ser cosechada.</p>
+      </div>
+      <div class="colima__datos">
+        <div class="colima__dato"><strong>Colima</strong><span>Estado más pequeño de México, con la sal más grande</span></div>
+        <div class="colima__dato"><strong>Cuyutlán</strong><span>Salinas históricas del Pacífico, operadas por familias salineras</span></div>
+        <div class="colima__dato"><strong>Tradición</strong><span>Técnica artesanal de cosecha en superficie, a mano, sin maquinaria</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAYOREO -->
+  <section class="mayoreo">
+    <div class="mayoreo__inner">
+      <h2>¿Tienda, restaurante<br/>o chef? <em>Hablemos.</em></h2>
+      <p>Ofrecemos precios especiales para tiendas gourmet, restaurantes y chefs. También enviamos muestras de presentación a todo el país.</p>
+      <a href="#contacto" class="btn btn--primary">Solicitar cotización mayoreo</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="contacto__inner">
+      <p class="section-eyebrow">Pedir / Contacto</p>
+      <h2>¿Lista tu <em>chulada</em>?</h2>
+      <p class="section-sub">Escríbenos por WhatsApp o correo para hacer tu pedido. Enviamos a toda la República Mexicana.</p>
+      <div class="contacto__options">
+        <a href="https://wa.me/521XXXXXXXXXX?text=Hola%2C%20quiero%20pedir%20Chulada%20de%20Sal" class="contacto__card" target="_blank">
+          <span class="contacto__icon">💬</span>
+          <strong>WhatsApp</strong>
+          <p>La forma más rápida. Respuesta en menos de 24 horas.</p>
+          <span class="btn btn--ghost">Escribir ahora</span>
+        </a>
+        <a href="mailto:hola@chulaadesal.mx" class="contacto__card">
+          <span class="contacto__icon">✉️</span>
+          <strong>Correo</strong>
+          <p>Para pedidos mayoreo, muestras o colaboraciones.</p>
+          <span class="btn btn--ghost">Enviar correo</span>
+        </a>
+        <a href="https://instagram.com/chuladadesal" class="contacto__card" target="_blank">
+          <span class="contacto__icon">📸</span>
+          <strong>Instagram</strong>
+          <p>Síguenos para recetas, novedades y tips de cocina.</p>
+          <span class="btn btn--ghost">Ver perfil</span>
+        </a>
+      </div>
+      <p class="contacto__envio">🚚 Envíos a toda la República · Tiempo estimado: 2–5 días hábiles</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
+          <polygon points="20,4 38,36 2,36" fill="none" stroke="#C17F3B" stroke-width="2"/>
+          <line x1="20" y1="4" x2="20" y2="36" stroke="#C17F3B" stroke-width="0.8" stroke-dasharray="2,3"/>
+        </svg>
+        <span>Chulada <em>de Sal</em></span>
+      </div>
+      <p class="footer__tagline">Sal de Mar de Colima · Hecha en México</p>
+      <p class="footer__legal">Marca registrada ante el IMPI · Clase 30 · CDMX, México</p>
+      <div class="footer__links">
+        <a href="#historia">Historia</a>
+        <a href="#productos">Productos</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <p class="footer__copy">© 2026 Chulada de Sal · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
