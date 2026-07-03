@@ -285,3 +285,74 @@ p  { color: var(--mid); }
   .historia__deco { display: none; }
   .colima__inner { grid-template-columns: 1fr; gap: 2rem; }
 }
+
+/* ── Hero con imagen de fondo ──────────────────────────────── */
+.hero--img {
+  background: url('../img/hero-sal.jpg') center center / cover no-repeat !important;
+}
+.hero--img::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(120deg, rgba(20,10,5,.82) 0%, rgba(44,20,8,.65) 50%, rgba(20,10,5,.5) 100%);
+  z-index: 0;
+}
+.hero--img .hero__content,
+.hero--img .hero__visual,
+.hero--img .hero__waves { position: relative; z-index: 1; }
+.hero--img .hero__eyebrow { color: var(--brand); }
+.hero--img .hero__title { color: var(--cream); }
+.hero--img .hero__sub { color: rgba(253,246,238,.8); }
+.hero--img .hero__badges span {
+  background: rgba(253,246,238,.1);
+  border-color: rgba(253,246,238,.25);
+  color: var(--cream);
+}
+.hero--img .btn--ghost {
+  border-color: rgba(253,246,238,.5);
+  color: var(--cream);
+}
+.hero--img .btn--ghost:hover {
+  background: var(--cream); color: var(--dark);
+}
+
+/* ── Sección historia con imagen ───────────────────────────── */
+.historia__img {
+  width: 100%; border-radius: var(--r);
+  overflow: hidden; box-shadow: 0 12px 40px rgba(44,44,44,.15);
+}
+.historia__img img { width: 100%; height: 320px; object-fit: cover; display: block; }
+
+/* ── Hero imagen real ──────────────────────────────────────── */
+.hero--img {
+  background: url('../img/hero.jpg') center 40% / cover no-repeat !important;
+}
+.hero--img::after {
+  content:''; position:absolute; inset:0;
+  background: linear-gradient(110deg, rgba(15,8,3,.85) 0%, rgba(35,18,5,.7) 50%, rgba(15,8,3,.55) 100%);
+  z-index:0;
+}
+.hero--img .hero__content, .hero--img .hero__waves { position:relative; z-index:1; }
+.hero--img .hero__title { color:var(--cream); }
+.hero--img .hero__sub { color:rgba(253,246,238,.82); }
+.hero--img .hero__badges span { background:rgba(253,246,238,.1); border-color:rgba(253,246,238,.2); color:var(--cream); }
+.hero--img .btn--ghost { border-color:rgba(253,246,238,.5); color:var(--cream); }
+.hero--img .btn--ghost:hover { background:var(--cream); color:var(--dark); }
+
+/* ── Historia imagen ───────────────────────────────────────── */
+.historia__img img { width:100%; border-radius:var(--r); box-shadow:0 12px 40px rgba(44,44,44,.15); display:block; }
+.historia__caption { text-align:center; font-family:var(--ff-serif); font-size:.95rem; color:var(--brand); font-style:italic; margin-top:.75rem; }
+
+/* ── Productos foto ────────────────────────────────────────── */
+.productos__foto { margin: 2rem auto 3rem; max-width: 700px; border-radius:var(--r); overflow:hidden; box-shadow:0 12px 40px rgba(44,44,44,.12); }
+.productos__foto img { width:100%; display:block; }
+
+/* ── Cards sin jar SVG ─────────────────────────────────────── */
+.producto-card__color-bar { height:4px; background:var(--accent, #C17F3B); border-radius:4px 4px 0 0; margin:-1.5rem -1.5rem 1rem; }
+
+/* ── Jingle / Video ────────────────────────────────────────── */
+.jingle { background:var(--dark); padding:6rem 1.5rem; text-align:center; }
+.jingle__inner { max-width:800px; margin:0 auto; }
+.jingle__inner h2 { color:var(--cream); margin-bottom:.5rem; }
+.jingle__inner .section-sub { color:rgba(253,246,238,.65); margin-bottom:2.5rem; }
+.jingle__video-wrap { border-radius:var(--r); overflow:hidden; box-shadow:0 16px 48px rgba(0,0,0,.4); background:#000; }
+.jingle__video { width:100%; display:block; max-height:480px; object-fit:contain; }
+.jingle__credit { margin-top:1.25rem; font-size:.8rem; color:rgba(253,246,238,.35); font-style:italic; letter-spacing:.08em; }
