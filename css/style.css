@@ -356,3 +356,37 @@ p  { color: var(--mid); }
 .jingle__video-wrap { border-radius:var(--r); overflow:hidden; box-shadow:0 16px 48px rgba(0,0,0,.4); background:#000; }
 .jingle__video { width:100%; display:block; max-height:480px; object-fit:contain; }
 .jingle__credit { margin-top:1.25rem; font-size:.8rem; color:rgba(253,246,238,.35); font-style:italic; letter-spacing:.08em; }
+
+/* ── Hero con foto real ────────────────────────────────────── */
+.hero--foto {
+  background: var(--cream-d) !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  min-height: 88vh;
+  padding: 5rem 4rem 4rem;
+}
+.hero--foto .hero__title { color: var(--dark); }
+.hero--foto .hero__sub { color: var(--mid); }
+.hero--foto .hero__badges span { background: var(--white); border-color: var(--border); color: var(--dark); }
+.hero--foto .hero__waves { display: none; }
+.hero--foto::after { display: none; }
+.hero__foto-img { width: 100%; border-radius: var(--r); box-shadow: 0 16px 48px rgba(44,44,44,.12); }
+
+/* ── Foto en cards de producto ─────────────────────────────── */
+.producto-card__foto { margin: 0 -1.5rem .5rem; overflow: hidden; height: 200px; }
+.producto-card__foto img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+/* ── Sección muestras ──────────────────────────────────────── */
+.muestras { padding: 6rem 1.5rem; background: var(--cream); }
+.muestras__inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.muestras__foto img { width: 100%; max-width: 400px; margin: 0 auto; display: block; border-radius: var(--r); box-shadow: 0 12px 40px rgba(44,44,44,.1); }
+.muestras__text h2 { margin-bottom: 1rem; }
+.muestras__text p { margin-bottom: 1rem; line-height: 1.8; }
+.muestras__text .btn { margin-top: .5rem; }
+
+@media (max-width: 768px) {
+  .hero--foto { grid-template-columns: 1fr; padding: 3rem 1.5rem; }
+  .muestras__inner { grid-template-columns: 1fr; gap: 2rem; }
+}
